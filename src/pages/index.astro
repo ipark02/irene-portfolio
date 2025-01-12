@@ -1,11 +1,27 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import '../styles/portfolio.css'
+import Layout from '../layouts/Layout.astro'
+import Header from '../components/Header.astro'
 ---
 
 <Layout>
-	<Welcome />
+
+<Header />
+
+<div class="row">
+            <div class="column">
+            <a href="pap.html"><img src="/images/pfimg.png"></a>
+                <p>People & Places</p>
+            </div>
+
+            <div class="column">
+                <a href="bed.html"><img src="/images/bedtest.png"></a>
+                <p>Bed</p>
+            </div>
+            
+            <div class="column">
+                <a href="ode.html"><img src="/images/pfimg2.png"></a>
+                <p>Ode to the Book</p>
+            </div>
+        </div>
 </Layout>

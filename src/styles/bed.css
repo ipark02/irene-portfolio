@@ -1,0 +1,16 @@
+.bed1 img {
+    display: flex;
+    justify-content: flex-start;
+    width: 1000px;
+}
+
+.bed1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.bed2 img {
+    display: flex;
+    justify-content: flex-start;
+    width:600px;
+}

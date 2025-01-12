@@ -1,0 +1,48 @@
+.navbar{
+    background-color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+li:last-child{
+    padding-right: 0;
+}
+
+
+.deco {
+    text-decoration: none;
+    color: white;
+}
+
+.deco:hover {
+    color: pink;
+}
+
+::marker {
+    color: black;
+
+}
+
+.name {
+    color: white;
+}
+
+.vertical-line {
+    width: 100%;                
+    height: .25px;             
+    background-color: white;
+}
