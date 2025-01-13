@@ -6,6 +6,9 @@
 .ode1 img{
     width: 1200px;
     height: auto;
+    /*
+    border: .5px solid white;
+    */
 }
 
 .odetext {
@@ -21,8 +24,15 @@
 .ode01 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    /*
+    gap: 5px;
+    */
 }
 .ode01 img {
     width: 33.33%;
     height: auto;
+    /*
+    border: .5px solid white;
+    */
 }

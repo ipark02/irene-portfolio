@@ -1,38 +1,39 @@
+.pap1 {
+    display: inline-block;
+    text-align: center;
+}
 .pap1 img {
-    display: flex;
-    justify-content: flex-start;
-    width: 1000px;
+    width: 70%;
+    height: auto;
+    border: .5px solid white;
 }
 
-.pap1 p {
+.pap1 p  {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     margin: 30px;
-    justify-content: flex-start;
-    width: 1000px;
+    justify-content: center;
     color: white;
+    text-align: center;
+}
+
+.pap0 {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .pap0 img {
-    display:flex;
-    justify-content: flex-start;
-    height: 400px;
-    margin-left: 30px;
-    flex-wrap: wrap;
-
+    width: 45%;
+    height: auto;
+    border: .5px solid white;
 }
 
-.pap0 p {
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
 
-body {
-    background-color: black;
-}
-.margin {
 
-}
+
+
 
 /*.margin {
     margin-top: 50px;
@@ -64,4 +65,4 @@ body {
     margin-top: 50px;
     float:left;
     width: 50%;
-} /*
+} */
