@@ -1,12 +1,13 @@
 .bread1 {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    
 }
 
 .bread1 img {
     width: 70%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .bread01 {
