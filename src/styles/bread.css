@@ -1,7 +1,7 @@
 .bread1 {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .bread1 img {
@@ -17,6 +17,6 @@
 }
 
 .bread01 img {
-    width: 30%;
+    width: 20%;
     height: auto;
 }
