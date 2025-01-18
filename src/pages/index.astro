@@ -1,5 +1,5 @@
 ---
-import '../styles/portfolio.css'
+import '../styles/portfolio.scss'
 import Layout from '../layouts/Layout.astro'
 import Header from '../components/Header.astro'
 ---
@@ -8,11 +8,41 @@ import Header from '../components/Header.astro'
 
 <Header />     
 <div class="row">
-        <div class="column">
+        <!-- <div class="column">
             <a href="pap.html"><img src="/images/pfimg.png"></a>
                 <p>People & Places</p>
+        </div> -->
+        <div class="column"
+            style="background-image: url(/images/pfimg.png)"
+        >
+            <a href="pap.html"><div class="column-content"><p class="column-text">People & Places</p></div></a>
         </div>
-        <div class="column">
+         <div class="column"
+            style="background-image: url(/images/bedtest.png)"
+        >
+            <a href="bed.html"><div class="column-content"><p class="column-text">Bed</p></div></a>
+        </div>
+
+        <div class="column"
+            style="background-image: url(/images/pfimg2.png)"
+        >
+            <a href="ode.html"><div class="column-content"><p class="column-text">Ode to the Book</p></div></a>
+        </div>
+
+         <div class="column"
+            style="background-image: url(/images/bread1.jpg)"
+        >
+            <a href="bread.html"><div class="column-content"><p class="column-text">Bread</p></div></a>
+        </div>
+        
+         <div class="column"
+            style="background-image: url(/images/bread1.png)"
+        >
+            <a href=""><div class="column-content"><p class="column-text">Darkroom</p></div></a>
+        </div>
+        
+        
+        <!-- <div class="column">
             <a href="bed.html"><img src="/images/bedtest.png"></a>
                 <p>Bed</p>
         </div>
@@ -30,7 +60,7 @@ import Header from '../components/Header.astro'
         <div class="column">
             <a href="ode.html"><img src="/images/pfimg2.png"></a>
                 <p>Darkroom</p>
-        </div>
+        </div> -->
     </div>
 </div>
 </Layout>
