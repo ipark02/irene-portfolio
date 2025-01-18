@@ -13,11 +13,18 @@
 .bread01 {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 10px;
+    width: 90%;
 }
 
 .bread01 img {
     width: 20%;
     height: auto;
+}
+
+.bread-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
 }

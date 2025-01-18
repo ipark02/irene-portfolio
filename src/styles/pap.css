@@ -17,21 +17,28 @@
     text-align: center;
 }
 
-.pap0 {
+.pap01 {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.pap0 img {
+.pap01 img {
     width: 45%;
     height: auto;
-    border: .5px solid white;
+    /* border: .5px solid white; */
 }
 
+.pap02 {
+    display: flex;
+    justify-content: center;
+}
 
-
+.pap02 img {
+    width: 30%;
+    height: auto;
+}
 
 
 
