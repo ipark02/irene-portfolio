@@ -1,14 +1,13 @@
 .ode1 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .ode1 img{
     width: 1200px;
     height: auto;
-    /*
-    border: .5px solid white;
-    */
+    
 }
 
 .odetext {
@@ -19,6 +18,7 @@
 .odetext p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
     width: 50%;
 }
 
