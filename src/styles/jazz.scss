@@ -1,3 +1,7 @@
+html, body {
+    background: rgb(255, 254, 254);
+}
+
 .jazz1 {
     display: flex;
     flex-direction: column;
@@ -27,13 +31,27 @@
 
 .jazz2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     width: 100%;
 
     img {
-        width: 20%;
+        width: 33%;
+        object-fit: contain;
+    }
+}
+
+.jazz3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+
+    img {
+        width: 40%;
         object-fit: contain;
     }
 }
